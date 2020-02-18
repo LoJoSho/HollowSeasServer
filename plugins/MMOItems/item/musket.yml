@@ -1,0 +1,5 @@
+MUSKET:
+  material: IRON_HORSE_ARMOR
+  attack-speed: 1.0
+  knockback: 2.0
+  item-cooldown: 5.0

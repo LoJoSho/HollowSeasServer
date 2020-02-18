@@ -197,43 +197,12 @@ STEEL:
   disable-smelting: true
   disable-enchanting: true
   disable-repairing: true
-  advanced-craft:
-    '0':
-      material: AIR
-      amount: 1
-      name: ''
-    '1':
-      material: AIR
-      amount: 1
-      name: ''
-    '2':
-      material: AIR
-      amount: 1
-      name: ''
-    '3':
-      material: AIR
-      amount: 1
-      name: ''
-    '4':
-      material: AIR
-      amount: 1
-      name: ''
-    '5':
-      material: AIR
-      amount: 1
-      name: ''
-    '6':
-      material: AIR
-      amount: 1
-      name: ''
-    '7':
-      material: AIR
-      amount: 1
-      name: ''
-    '8':
-      material: AIR
-      amount: 1
-      name: ''
+  crafting:
+    furnace:
+      '1':
+        item: IRON_INGOT
+        time: 100
+        experience: 10.0
 MINERSBLOOD:
   material: DRAGON_BREATH
   name: §4Blood of Miners

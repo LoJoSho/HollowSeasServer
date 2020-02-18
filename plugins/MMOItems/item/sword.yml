@@ -243,8 +243,12 @@ STEELSWORD:
       id: STEEL
       amount: 1
   will-break: true
-SWORD_OF_WITHERING:
-  material: IRON_SWORD
+  crafting:
+    shaped:
+      '1':
+      - AIR MATERIAL.STEEL AIR
+      - AIR MATERIAL.STEEL AIR
+      - AIR STICK AIR
 WITHERSWORD:
   material: STONE_SWORD
   lore:
@@ -299,6 +303,7 @@ WITHERSWORD:
       material: COAL
       amount: 4
       name: ''
+  crafting: {}
 VOTING_SWORD:
   material: DIAMOND_SWORD
   name: '&bThe Voters Sword'

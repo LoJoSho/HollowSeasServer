@@ -15,30 +15,3 @@ NATURES_GIFT:
   enchants:
     unbreaking: 1
   regeneration: 90.0=110.0
-WARRIOR_AMULET:
-  material: GRAY_DYE
-  name: '&fWarrior Amulet'
-  disable-crafting: true
-  hide-enchants: true
-  enchants:
-    unbreaking: 1
-  damage-reduction: 5.0
-  regeneration: 8.0
-FORGOTTEN_IDOL:
-  material: GOLD_NUGGET
-  enchants:
-    unbreaking: 1
-  hide-enchants: true
-  name: '&eForgotten Idol'
-  required-level: 19.0
-  weapon-damage: 30.0=40.0
-FIRE_TOTEM:
-  material: BLAZE_ROD
-  hide-enchants: true
-  enchants:
-    unbreaking: 1
-  name: '&fFire Totem'
-  tier: RARE
-  fire-damage-reduction: 80.0=90.0
-  required-level: 10.0
-  disable-crafting: true
