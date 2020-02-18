@@ -1,5 +1,5 @@
 type: region
-name: diamond_stand
+name: diamond_shop
 icon: CHEST
 shop-icon: DIAMOND
 max: 3
