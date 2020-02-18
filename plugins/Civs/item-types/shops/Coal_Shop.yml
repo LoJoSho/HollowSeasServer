@@ -1,0 +1,45 @@
+type: region
+name: coal_shop
+icon: CHEST
+shop-icon: COAL
+max: 3
+price: 300
+groups:
+- shops
+- oreshop
+level: 3
+is-in-shop: false
+
+worlds:   
+- world
+
+build-reqs:
+- g:fence*7
+- CHEST*1
+- COAL_BLOCK*1
+- g:wool*25
+
+build-radius: 3
+
+effects:
+- block_break
+- block_build
+- chest_use
+- block_liquid
+- block_fire
+- evolve:coal_market.500
+
+period: 1800 #30 minutes
+upkeep:
+  0:
+    input:
+    - COAL*6
+    payout: 8
+    exp: 1
+  1:
+    reagents:
+    - CHEST*1
+    output:
+    - COAL*6
+    payout: -16
+    exp: 1

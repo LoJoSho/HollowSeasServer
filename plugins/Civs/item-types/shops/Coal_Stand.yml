@@ -1,0 +1,47 @@
+type: region
+name: coal_stand
+icon: CHEST
+shop-icon: COAL
+max: 3
+price: 300
+groups:
+- shops
+- oreshop
+level: 2
+is-in-shop: false
+
+worlds:   
+- world
+
+build-reqs:
+- g:fence*7
+- CHEST*1
+- COAL_BLOCK*1
+- g:wool*25
+
+build-radius: 3
+
+effects:
+- block_break
+- block_build
+- chest_use
+- block_liquid
+- block_fire
+- evolve:coal_shop.100
+
+period: 1800 #30 minutes
+upkeep:
+  0:
+    # Sells 6 apples to the server for 12.
+    input:
+    - COAL*6
+    payout: 6
+    exp: 1
+  1:
+    # Buys 6 caol from the server for 24.
+    reagents:
+    - CHEST*1
+    output:
+    - COAL*6
+    payout: -18
+    exp: 1
