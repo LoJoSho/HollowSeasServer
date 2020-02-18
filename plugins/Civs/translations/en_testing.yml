@@ -1,2 +1,11 @@
 Coal_Vendor-name: "Coal Vendor"
 Coal_Vendor-desc: "&8[&a+&8] &7Sells 6 coal every 30 minutes for $4 \n&8[&c-&8]&7Buys coal every 30 minutes for $24"
+
+Coal_stand-name: "Coal Stand"
+Coal_stand-desc: "&8[&a+&8] &7Sells 6 coal every 30 minutes for $6 \n&8[&c-&8]&7Buys coal every 30 minutes for $18\n&7Upgraded from Coal Vendor"
+
+Coal_shop-name: "Coal Shop"
+Coal_shop-desc: "&8[&a+&8] &7Sells 6 coal every 30 minutes for $8 \n&8[&c-&8]&7Buys coal every 30 minutes for $16\n&7Upgraded from Coal Stand"
+
+Coal_market-name: "Coal Market"
+Coal_market-desc: "&8[&a+&8] &7Sells 6 coal every 30 minutes for $12 \n&8[&c-&8]&7Buys coal every 30 minutes for $12\n&7Upgraded from Coal Shop"
