@@ -7,7 +7,7 @@ price: 1000
 groups:
 - shops
 - oreshop
-level: 1
+level: 3
 is-in-shop: false
 
 pre-reqs:
