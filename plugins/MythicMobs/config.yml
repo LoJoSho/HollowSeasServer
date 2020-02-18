@@ -50,7 +50,7 @@ Configuration:
       Power: 0
   RandomSpawning:
     DisableVanillaSpawns: false
-    GenerateSpawnPoints: true
+    GenerateSpawnPoints: false
     MaxMobsPerChunk: 2
     SpawnRadiusPerPlayer: 64
     SpawnRadiusPerPlayerY: 32

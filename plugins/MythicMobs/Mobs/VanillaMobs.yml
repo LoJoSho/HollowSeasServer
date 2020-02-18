@@ -3,7 +3,7 @@
 #  
 
 CAVE_SPIDER:
-  Health: 30
+  Health: 20
   Damage: 7
 WITHER_SKELETON:
   Health: 50

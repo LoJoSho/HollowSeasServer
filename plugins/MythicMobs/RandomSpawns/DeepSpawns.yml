@@ -1,8 +1,8 @@
-rsDeepMiner:
-  Action: REPLACE
-  Chance: 0.01
-  Conditions: 
-    - "heightbelow 50"
-  Priority: 10
-  Type: DeepMiner
-  Worlds: world
+#rsDeepMiner:
+#  Action: REPLACE
+#  Chance: 0.01
+#  Conditions: 
+#    - "heightbelow 50"
+#  Priority: 10
+#  Type: DeepMiner
+#  Worlds: world
