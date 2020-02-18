@@ -11,7 +11,15 @@ level: 3
 is-in-shop: false
 
 pre-reqs:
-- member=hamlet:village:town:city:metropolis
+- member=settlement:hamlet:village:town:city:metropolis
+
+towns:
+- settlement
+- hamlet
+- village
+- town
+- city
+- metropolis
 
 worlds:   
 - world

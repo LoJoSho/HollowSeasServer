@@ -10,7 +10,15 @@ groups:
 level: 1
 
 pre-reqs:
-- member=hamlet:village:town:city:metropolis
+- member=settlement:hamlet:village:town:city:metropolis
+
+towns:
+- settlement
+- hamlet
+- village
+- town
+- city
+- metropolis
 
 worlds:   
 - world
