@@ -9,6 +9,9 @@ groups:
 - oreshop
 level: 1
 
+pre-reqs:
+- member=hamlet:village:town:city:metropolis
+
 worlds:   
 - world
 

@@ -10,6 +10,9 @@ groups:
 level: 2
 is-in-shop: false
 
+pre-reqs:
+- member=hamlet:village:town:city:metropolis
+
 worlds:   
 - world
 
