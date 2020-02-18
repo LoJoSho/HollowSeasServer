@@ -1,0 +1,57 @@
+type: region
+name: iron_stand
+icon: CHEST
+shop-icon: IRON_INGOT
+max: 3
+price: 500
+groups:
+- shops
+- oreshop
+level: 3
+is-in-shop: false
+
+pre-reqs:
+- member=settlement:hamlet:village:town:city:metropolis
+
+towns:
+- settlement
+- hamlet
+- village
+- town
+- city
+- metropolis
+
+worlds:   
+- world
+
+build-reqs:
+- g:fence*7
+- CHEST*1
+- IRON_BLOCK*1
+- g:wool*25
+
+build-radius: 3
+
+effects:
+- block_break
+- block_build
+- chest_use
+- block_liquid
+- block_fire
+- evolve:iron_market.50
+
+period: 1800 #30 minutes
+upkeep:
+  0:
+    input:
+    - IRON_INGOT*6
+    payout: 12
+    exp: 1
+  1:
+  # Buying = $2, Selling = $4
+    reagents:
+    - CHEST*1
+    output:
+    - IRON_INGOT*6
+    payout: -24
+    exp: 1
