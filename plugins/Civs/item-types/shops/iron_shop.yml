@@ -1,5 +1,5 @@
 type: region
-name: iron_stand
+name: iron_shop
 icon: CHEST
 shop-icon: IRON_INGOT
 max: 3
