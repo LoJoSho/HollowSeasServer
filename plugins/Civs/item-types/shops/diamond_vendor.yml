@@ -1,0 +1,56 @@
+type: region
+name: diamond_vendor
+icon: CHEST
+shop-icon: DIAMOND
+max: 3
+price: 1000
+groups:
+- shops
+- oreshop
+level: 1
+
+pre-reqs:
+- member=settlement:hamlet:village:town:city:metropolis
+
+towns:
+- settlement
+- hamlet
+- village
+- town
+- city
+- metropolis
+
+worlds:   
+- world
+
+build-reqs:
+- g:fence*7
+- CHEST*1
+- DIAMOND_BLOCK*1
+- g:wool*25
+
+build-radius: 3
+
+effects:
+- block_break
+- block_build
+- chest_use
+- block_liquid
+- block_fire
+- evolve:diamond_stand.50
+
+period: 1800 #30 minutes
+upkeep:
+  0:
+    input:
+    - DIAMOND*6
+    payout: 24
+    exp: 1
+  1:
+  #Buying = $4, selling = $21
+    reagents:
+    - CHEST*1
+    output:
+    - DIAMOND*6
+    payout: -126
+    exp: 1
