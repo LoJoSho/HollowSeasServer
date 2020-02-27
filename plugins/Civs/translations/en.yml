@@ -794,3 +794,9 @@ cutting_house-name: "Cutting House"
 cutting_house-desc: "Takes in raw fish and brings out cooked fish."
 dairy_farm-name: "Dairy Farm"
 dairy_farm-desc: "Cows now produce Milk instead of beef and leather."
+# Thanks Louis :D
+apple_stand-name: "&cApple Stand"
+apple_stand-desc: "&8[&a+&8] &fSells and buys apples for money."
+#
+apple_market-name: "&cApple Market"
+apple_market-desc: "&8[&a+&8] &fSells and buys apples for a better price.\n&7Evolves from: &cApple Stand"

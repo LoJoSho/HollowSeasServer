@@ -1,0 +1,60 @@
+type: region
+name: Apple_Market
+icon: CHEST
+shop-icon: GOLDEN_APPLE
+max: 2
+is-in-shop: false
+price: 250
+groups:
+- shops
+- stands
+- apple_based
+level: 1
+
+#worlds:
+#- re_juno
+
+build-reqs:
+- CHEST*2
+- BARREL*2
+- OAK_LOG*8
+- OAK_LEAVES*24
+- g:job_block*1
+- g:fence*32
+- g:wool*24
+
+build-radius: 3
+
+effects:
+- block_break
+- block_build
+- chest_use
+- block_liquid
+- block_fire
+
+period: 1800 #30 minutes
+upkeep:
+  0:
+    # Sells 6 apples to the server for 12.
+    reagents:
+    - CHEST*1
+    input:
+    - APPLE*6
+    payout: 14
+    #exp: 1
+  1:
+    # Buys 6 apples from the server for 16.
+    reagents:
+    - BARREL*1
+    output:
+    - APPLE*6
+    payout: -14
+    #exp: 1
+  2:
+    reagents:
+    - COMPOSTER*1
+    input:
+    - GOLDEN_APPLE*2
+    output:
+    - APPLE*18
+    payout: 14
