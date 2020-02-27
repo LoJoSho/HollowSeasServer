@@ -1,0 +1,52 @@
+type: region
+name: Apple_Stand
+icon: CHEST
+shop-icon: APPLE
+max: 2
+price: 250
+groups:
+- shops
+- stands
+- apple_based
+level: 1
+
+#worlds:
+#- re_juno
+
+build-reqs:
+- CHEST*2
+- BARREL*2
+- OAK_LOG*8
+- OAK_LEAVES*24
+- g:job_block*1
+- g:fence*32
+- g:wool*24
+
+build-radius: 3
+
+effects:
+- block_break
+- block_build
+- chest_use
+- block_liquid
+- block_fire
+- evolve:apple_market.50
+
+period: 3600 #1 hour
+upkeep:
+  0:
+    # Sells 6 apples to the server for 12.
+    reagents:
+    - CHEST*1
+    input:
+    - APPLE*6
+    payout: 12
+    exp: 1
+  1:
+    # Buys 6 apples from the server for 16.
+    reagents:
+    - BARREL*1
+    output:
+    - APPLE*6
+    payout: -16
+    exp: 1
